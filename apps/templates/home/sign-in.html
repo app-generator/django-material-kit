@@ -2,85 +2,74 @@
 
 {% block title %} Sign IN {% endblock %} 
 
+{% block body_class %} sign-in-basic {% endblock %}
+
 <!-- Specific Page CSS goes HERE  -->
 {% block stylesheets %}{% endblock stylesheets %}
 
 {% block content %}
 
-    <main>
-
-        {% include 'includes/preloader.html' %}
-
-        <!-- Section -->
-        <section class="min-vh-100 d-flex align-items-center section-image overlay-soft-dark" data-background="/static/assets/img/pages/form-image.jpg">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-12 d-flex align-items-center justify-content-center">
-                        <div class="signin-inner my-4 my-lg-0 bg-white shadow-soft border rounded border-gray-300 p-4 p-lg-5 w-100 fmxw-500">
-                            <div class="text-center text-md-center mb-4 mt-md-0">
-                                <h1 class="mb-0 h3">Sign in to our platform</h1>
-                            </div>
-                            <form action="#" class="mt-4">
-                                <!-- Form -->
-                                <div class="form-group mb-4">
-                                    <label for="email">Your Email</label>
-                                    <div class="input-group">
-                                        <span class="input-group-text" id="basic-addon1"><span class="fas fa-envelope"></span></span>
-                                        <input type="email" class="form-control" placeholder="example@company.com" id="email" required>
-                                    </div>  
-                                </div>
-                                <!-- End of Form -->
-                                <div class="form-group">
-                                    <!-- Form -->
-                                    <div class="form-group mb-4">
-                                        <label for="password">Your Password</label>
-                                        <div class="input-group">
-                                            <span class="input-group-text" id="basic-addon2"><span class="fas fa-unlock-alt"></span></span>
-                                            <input type="password" placeholder="Password" class="form-control" id="password" required>
-                                        </div>  
-                                    </div>
-                                    <!-- End of Form -->
-                                    <div class="d-flex justify-content-between align-items-center mb-4">
-                                        <div class="form-check mb-0">
-                                            <input class="form-check-input" type="checkbox" value="" id="remember">
-                                            <label class="form-check-label mb-0" for="remember">
-                                              Remember me
-                                            </label>
-                                        </div>
-                                        <div><a href="#" class="small text-right">Lost password?</a></div>
-                                    </div>
-                                </div>
-                                <div class="d-grid">
-                                    <button type="submit" class="btn btn-primary">Sign in</button>
-                                </div>
-                            </form>
-                            <div class="mt-3 mb-4 text-center">
-                                <span class="fw-normal">or login with</span>
-                            </div>
-                            <div class="btn-wrapper my-4 text-center">
-                                <a href="#" class="btn btn-icon-only btn-pill btn-outline-gray-300 text-facebook me-2" aria-label="facebook button" title="facebook button">
-                                    <span aria-hidden="true" class="fab fa-facebook-f"></span>
-                                </a>
-                                <a href="#" class="btn btn-icon-only btn-pill btn-outline-gray-300 text-twitter me-2" aria-label="twitter button" title="twitter button">
-                                    <span aria-hidden="true" class="fab fa-twitter"></span>
-                                </a>
-                                <a href="#" class="btn btn-icon-only btn-pill btn-outline-gray-300 text-facebook" aria-label="github button" title="github button">
-                                    <span aria-hidden="true" class="fab fa-github"></span>
-                                </a>
-                            </div>
-                            <div class="d-flex justify-content-center align-items-center mt-4">
-                                <span class="fw-normal">
-                                    Not registered?
-                                    <a href="./sign-up.html" class="fw-bold text-underline">Create account</a>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
+  {% include 'includes/navigation-transparent.html' %} 
+  
+  <div class="page-header align-items-start min-vh-100" style="background-image: url('https://images.unsplash.com/photo-1497294815431-9365093b7331?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80');" loading="lazy">
+    <span class="mask bg-gradient-dark opacity-6"></span>
+    <div class="container my-auto">
+      <div class="row">
+        <div class="col-lg-4 col-md-8 col-12 mx-auto">
+          <div class="card z-index-0 fadeIn3 fadeInBottom">
+            <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
+              <div class="bg-gradient-primary shadow-primary border-radius-lg py-3 pe-1">
+                <h4 class="text-white font-weight-bolder text-center mt-2 mb-0">Sign in</h4>
+                <div class="row mt-3">
+                  <div class="col-2 text-center ms-auto">
+                    <a class="btn btn-link px-3" href="javascript:;">
+                      <i class="fa fa-facebook text-white text-lg"></i>
+                    </a>
+                  </div>
+                  <div class="col-2 text-center px-1">
+                    <a class="btn btn-link px-3" href="javascript:;">
+                      <i class="fa fa-github text-white text-lg"></i>
+                    </a>
+                  </div>
+                  <div class="col-2 text-center me-auto">
+                    <a class="btn btn-link px-3" href="javascript:;">
+                      <i class="fa fa-google text-white text-lg"></i>
+                    </a>
+                  </div>
                 </div>
+              </div>
             </div>
-        </section>
+            <div class="card-body">
+              <form role="form" class="text-start">
+                <div class="input-group input-group-outline my-3">
+                  <label class="form-label">Email</label>
+                  <input type="email" class="form-control">
+                </div>
+                <div class="input-group input-group-outline mb-3">
+                  <label class="form-label">Password</label>
+                  <input type="password" class="form-control">
+                </div>
+                <div class="form-check form-switch d-flex align-items-center mb-3">
+                  <input class="form-check-input" type="checkbox" id="rememberMe">
+                  <label class="form-check-label mb-0 ms-2" for="rememberMe">Remember me</label>
+                </div>
+                <div class="text-center">
+                  <button type="button" class="btn bg-gradient-primary w-100 my-4 mb-2">Sign in</button>
+                </div>
+                <p class="mt-4 text-sm text-center">
+                  Don't have an account?
+                  <a href="/sign-up.html" class="text-primary text-gradient font-weight-bold">Sign UP</a>
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    </main>
+    {% include 'includes/footer-auth.html' %} 
+
+  </div>
 
 {% endblock content %}
 

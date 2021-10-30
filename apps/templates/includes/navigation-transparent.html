@@ -1,0 +1,107 @@
+
+  <!-- Navbar Transparent -->
+  <nav class="navbar navbar-expand-lg position-absolute top-0 z-index-3 w-100 shadow-none my-3  navbar-transparent ">
+    <div class="container">
+      <a class="navbar-brand  text-white " href="/" rel="tooltip" title="Designed and Coded by Creative Tim" data-placement="bottom">
+        Material Kit 2
+      </a>
+      <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon mt-2">
+          <span class="navbar-toggler-bar bar1"></span>
+          <span class="navbar-toggler-bar bar2"></span>
+          <span class="navbar-toggler-bar bar3"></span>
+        </span>
+      </button>
+      <div class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0 ms-lg-12 ps-lg-5" id="navigation">
+        <ul class="navbar-nav navbar-nav-hover ms-auto">
+          {% if request.user.is_authenticated %}
+            <li class="nav-item dropdown dropdown-hover mx-2 ms-lg-6">
+              <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" id="dropdownMenuPages8" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="material-icons opacity-6 me-2 text-md">dashboard</i>
+                Pages
+                <img src="/static/assets/img/down-arrow-white.svg" alt="down-arrow" class="arrow ms-2 d-lg-block d-none">
+                <img src="/static/assets/img/down-arrow-dark.svg" alt="down-arrow" class="arrow ms-2 d-lg-none d-block">
+              </a>
+              <div class="dropdown-menu dropdown-menu-animation ms-n3 dropdown-md p-3 border-radius-lg mt-0 mt-lg-3" aria-labelledby="dropdownMenuPages8">
+                <div class="d-none d-lg-block">
+                  <h6 class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-1">
+                    Landing Pages
+                  </h6>
+                  <a href="/about-us.html" class="dropdown-item border-radius-md">
+                    <span>About Us</span>
+                  </a>
+                  <a href="/contact-us.html" class="dropdown-item border-radius-md">
+                    <span>Contact Us</span>
+                  </a>
+                  <a href="/author.html" class="dropdown-item border-radius-md">
+                    <span>Author</span>
+                  </a>
+                  <a href="/page-404.html" class="dropdown-item border-radius-md">
+                    <span>Page 404</span>
+                  </a>                
+                  <a href="/template.html" class="dropdown-item border-radius-md">
+                    <span>Template</span>
+                  </a>                
+                  <h6 class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-1 mt-3">
+                    Account
+                  </h6>
+                  <a href="/sign-in.html" class="dropdown-item border-radius-md">
+                    <span>Sign In</span>
+                  </a>
+                </div>
+                <div class="d-lg-none">
+                  <h6 class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-1">
+                    Landing Pages
+                  </h6>
+                  <a href="/about-us.html" class="dropdown-item border-radius-md">
+                    <span>About Us</span>
+                  </a>
+                  <a href="/contact-us.html" class="dropdown-item border-radius-md">
+                    <span>Contact Us</span>
+                  </a>
+                  <a href="/author.html" class="dropdown-item border-radius-md">
+                    <span>Author</span>
+                  </a>
+                  <a href="/page-404.html" class="dropdown-item border-radius-md">
+                    <span>Page 404</span>
+                  </a>
+                  <a href="/template.html" class="dropdown-item border-radius-md">
+                    <span>Template</span>
+                  </a>
+                  <h6 class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-1 mt-3">
+                    Account
+                  </h6>
+                  <a href="/sign-in.html" class="dropdown-item border-radius-md">
+                    <span>Sign In</span>
+                  </a>
+                </div>
+              </div>
+            </li>
+          {% endif %}  
+          <li class="nav-item ms-lg-auto">
+            <a class="nav-link nav-link-icon me-2" 
+               href="https://github.com/app-generator/flask-material-kit" target="_blank">
+              <i class="fa fa-github me-1"></i>
+              <p class="d-inline text-sm z-index-1 font-weight-bold" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Star us on Github">Github</p>
+            </a>
+          </li>
+          <li class="nav-item my-auto ms-3 ms-lg-0">
+            <a href="https://appseed.us/apps/flask-apps/flask-material-kit"
+               target="_blank" 
+               class="btn btn-sm  bg-gradient-primary  mb-0 me-1 mt-2 mt-md-0">Download</a>
+          </li>
+          {% if request.user.is_authenticated %}
+            <li class="nav-item ms-lg-auto">
+              <a class="nav-link nav-link-icon me-2" 
+                href="{% url 'logout' %}">
+                <i class="fa fa-sign-out me-1"></i>
+                <p class="d-inline text-sm z-index-1 font-weight-bold" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Sign OUT">Logout</p>
+              </a>
+            </li>          
+          {% endif %}
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+

@@ -2,109 +2,93 @@
 
 {% block title %} Sign UP {% endblock %} 
 
+{% block body_class %} sign-in-basic {% endblock %}
+
 <!-- Specific Page CSS goes HERE  -->
 {% block stylesheets %}{% endblock stylesheets %}
 
 {% block content %}
 
-    <main>
-
-        {% include 'includes/preloader.html' %}
-
-        <!-- Section -->
-        <section class="min-vh-100 d-flex align-items-center section-image overlay-soft-dark" data-background="/static/assets/img/pages/form-image.jpg">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-12 d-flex align-items-center justify-content-center">
-                        <div class="signin-inner my-4 my-lg-0 bg-white shadow-soft border rounded border-gray-300 p-4 p-lg-5 w-100 fmxw-500">
-                            <div class="text-center text-md-center mb-4 mt-md-0">
-                                <h1 class="mb-0 h3">
-                                    <a href="https://appseed.us/django/django-pixel-bootstrap-uikit" target="_blank">Django Pixel UI</a> - Register
-                                </h1>
-                                <br />
-                                <span class="font-weight-normal">
-                                    {% if msg %}
-                                        {{ msg | safe }}
-                                    {% else %}
-                                        Add your credentials
-                                    {% endif %}                                  
-                                </span>
-                            </div>
-                            <form method="post" action="" action="#">
-
-                                {% csrf_token %}
-
-                                <div class="form-group mb-4">
-                                    <label for="email">Username</label>
-                                    <div class="input-group">
-                                        <span class="input-group-text" id="basic-addon1"><span class="fas fa-user"></span></span>
-                                        {{ form.username }}
-                                    </div>  
-                                    <span class="text-error">{{ form.username.errors }}</span>
-                                </div>
-                                <!-- Form -->
-                                <div class="form-group mb-4">
-                                    <label for="email">Email</label>
-                                    <div class="input-group">
-                                        <span class="input-group-text" id="basic-addon3"><span class="fas fa-envelope"></span></span>
-                                        {{ form.email }}
-                                    </div>  
-                                    <span class="text-error">{{ form.email.errors }}</span>
-                                </div>
-                                <!-- End of Form -->
-                                <div class="form-group">
-                                    <!-- Form -->
-                                    <div class="form-group mb-4">
-                                        <label for="password">Password</label>
-                                        <div class="input-group">
-                                            <span class="input-group-text" id="basic-addon4"><span class="fas fa-unlock-alt"></span></span>
-                                            {{ form.password1 }}
-                                        </div>  
-                                        <span class="text-error">{{ form.password2.errors }}</span>
-                                    </div>
-                                    <div class="form-group mb-4">
-                                        <label for="password">Password Check</label>
-                                        <div class="input-group">
-                                            <span class="input-group-text" id="basic-addon4"><span class="fas fa-unlock-alt"></span></span>
-                                            {{ form.password2 }}
-                                        </div>  
-                                        <span class="text-error">{{ form.password2.errors }}</span>
-                                    </div>                                    
-                                    <!-- End of Form -->
-                                    <div class="d-flex justify-content-between align-items-center mb-4">
-                                        <div class="form-check mb-0">
-                                            <input class="form-check-input" type="checkbox" value="" id="remember">
-                                            <label class="form-check-label mb-0" for="remember">
-                                              Agree <a class="fw-bold text-underline" href="#">Terms</a>
-                                            </label>
-                                        </div>
-                                        <div><a href="{% url 'login' %}" class="text-right">Login</a></div>
-                                    </div>
-                                </div>
-                                <div class="d-grid">
-                                    <button type="submit" name="register" class="btn btn-primary">Sign UP</button>
-                                </div>
-                            </form>
-                            
-                            <br />
-
-                            <div class="d-flex justify-content-center align-items-center mt-4">
-                                <span class="fw-normal">
-                                    &copy; Themesberg - coded by 
-                                    <a href="https://appseed.us" target="_blank"
-                                       class="fw-bold text-underline">AppSeed</a>
-                                </span>
-                            </div>
-
-                        </div>
-                    </div>
+  {% include 'includes/navigation-transparent.html' %} 
+  
+  <div class="page-header align-items-start min-vh-100" style="background-image: url('https://images.unsplash.com/photo-1497294815431-9365093b7331?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80');" loading="lazy">
+    <span class="mask bg-gradient-dark opacity-6"></span>
+    <div class="container my-auto">
+      <div class="row">
+        <div class="col-lg-4 col-md-8 col-12 mx-auto">
+          <div class="card z-index-0 fadeIn3 fadeInBottom">
+            <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
+              <div class="bg-gradient-primary shadow-primary border-radius-lg py-3 pe-1">
+                <h4 class="text-white font-weight-bolder text-center mt-2 mb-0">
+                  Django Material Kit
+                </h4>
+                <div class="row mt-3">
+                  <p class="mb-0 text-white text-center">
+                    {% if msg %}
+                      {{ msg | safe }}
+                    {% else %}
+                      Enter your email and password to register
+                    {% endif %}
+                  </p>
                 </div>
+              </div>
             </div>
-        </section>
+            <div class="card-body">
+              <form role="form" method="post" action="">
 
-    </main>
+                {% csrf_token %} 
+
+                <div class="input-group input-group-outline mb-3">
+                  <label class="form-label">Username</label>
+                  {{ form.username }}
+                </div>
+                <span class="text-danger">{{ form.username.errors }}</span>
+
+                <div class="input-group input-group-outline mb-3">
+                  <label class="form-label">Email</label>
+                  {{ form.email }}
+                </div>
+                <span class="text-danger">{{ form.email.errors }}</span>
+
+                <div class="input-group input-group-outline mb-3">
+                  <label class="form-label">Password</label>
+                  {{ form.password1 }}
+                </div>
+                <span class="text-danger">{{ form.password1.errors }}</span>
+
+                <div class="input-group input-group-outline mb-3">
+                  <label class="form-label">Password Confirmation</label>
+                  {{ form.password2 }}
+                </div>
+                <span class="text-danger">{{ form.password2.errors }}</span>
+
+                <div class="form-check form-check-info text-start ps-0">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
+                  <label class="form-check-label" for="flexCheckDefault">
+                    I agree the <a href="javascript:;" class="text-dark font-weight-bolder">Terms and Conditions</a>
+                  </label>
+                </div>
+                <div class="text-center">
+                  <button type="submit" name="register" 
+                          class="btn btn-lg bg-gradient-primary btn-lg w-100 mt-4 mb-0">Sign Up</button>
+                </div>
+                <p class="mt-4 text-sm text-center">
+                  Already have an account?
+                  <a href="{% url 'login' %}" class="text-primary text-gradient font-weight-bold">Sign IN</a>
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    {% include 'includes/footer-auth.html' %} 
+
+  </div>
 
 {% endblock content %}
 
 <!-- Specific Page JS goes HERE  -->
 {% block javascripts %}{% endblock javascripts %}
+

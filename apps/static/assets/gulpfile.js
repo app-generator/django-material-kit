@@ -11,7 +11,7 @@ var browserSync = require('browser-sync').create();
 var cleanCss = require('gulp-clean-css');
 var gulp = require('gulp');
 const npmDist = require('gulp-npm-dist');
-var sass = require('gulp-sass');
+var sass = require('gulp-sass')(require('node-sass'));
 var wait = require('gulp-wait');
 var sourcemaps = require('gulp-sourcemaps');
 var rename = require("gulp-rename");
@@ -30,7 +30,7 @@ const paths = {
 
 // Compile SCSS
 gulp.task('scss', function() {
-    return gulp.src([paths.src.scss + '/custom/**/*.scss', paths.src.scss + '/pixel/**/*.scss', paths.src.scss + '/pixel.scss'])
+    return gulp.src([paths.src.scss + '/material-kit.scss'])
         .pipe(wait(500))
         .pipe(sourcemaps.init())
         .pipe(sass().on('error', sass.logError))
@@ -45,7 +45,7 @@ gulp.task('scss', function() {
 // Minify CSS
 gulp.task('minify:css', function() {
     return gulp.src([
-            paths.src.css + '/pixel.css'
+            paths.src.css + '/material-kit.css'
         ])
         .pipe(cleanCss())
         .pipe(rename(function(path) {
