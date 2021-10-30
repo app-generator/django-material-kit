@@ -1,0 +1,21 @@
+{
+    "name": "boilerplate-code-django",
+    "mastertemplate": "boilerplate-code-django",
+    "version": "1.0.6",
+    "description": "Template project - Django Boilerplate Code",
+    "scripts": {},
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/app-generator/boilerplate-code-django"
+    },
+    "bugs": {
+        "url": "https://github.com/app-generator/boilerplate-code-django/issues",
+        "email": "support@appseed.us"
+    },
+    "author": "AppSeed App Generator <support@appseed.us> (https://appseed.us)",
+    "engines": {
+        "node": ">=10.0.0"
+    },
+    "dependencies": {},
+    "devDependencies": {}
+}
