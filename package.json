@@ -1,15 +1,15 @@
 {
-    "name": "boilerplate-code-django",
+    "name": "django-material-kit",
     "mastertemplate": "boilerplate-code-django",
-    "version": "1.0.6",
+    "version": "1.0.0",
     "description": "Template project - Django Boilerplate Code",
     "scripts": {},
     "repository": {
         "type": "git",
-        "url": "https://github.com/app-generator/boilerplate-code-django"
+        "url": "https://github.com/app-generator/django-material-kit"
     },
     "bugs": {
-        "url": "https://github.com/app-generator/boilerplate-code-django/issues",
+        "url": "https://github.com/app-generator/django-material-kit/issues",
         "email": "support@appseed.us"
     },
     "author": "AppSeed App Generator <support@appseed.us> (https://appseed.us)",
