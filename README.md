@@ -11,8 +11,8 @@
 - UI Kit: **Material Kit - v3.0.0** (Bootstrap 5 Version) by **Creative-Tim**
 - UI-Ready app, SQLite Database, Django Native ORM
 - Modular design, clean code-base
-- Session-Based Authentication, Forms validation
-- Deployment scripts: Docker, Gunicorn / Nginx
+- `Session-Based Authentication`, Forms validation
+- `Deployment`: **Docker**, Gunicorn / Nginx
 - Support via **Github** and [Discord](https://discord.gg/fZC6hup).
 
 <br />
