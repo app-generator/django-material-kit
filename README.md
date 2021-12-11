@@ -6,7 +6,7 @@
 
 > Features
 
-- Up-to-date [dependencies](./requirements.txt): **Django 3.2.6 LTS**
+- `Up-to-date dependencies`: **Django 3.2.6 LTS**
 - [SCSS compilation](#recompile-css) via **Gulp**
 - UI Kit: **Material Kit - v3.0.0** (Bootstrap 5 Version) by **Creative-Tim**
 - UI-Ready app, SQLite Database, Django Native ORM
@@ -19,12 +19,12 @@
 
 > Links
 
-- [Django Material Kit](https://appseed.us/product/django-material-kit) - Product page
-- [Django Material Kit](https://django-material-kit.appseed-srv1.com/) - LIVE App
+- 👉 [Django Material Kit](https://appseed.us/product/django-material-kit) - Product page
+- 👉 [Django Material Kit](https://django-material-kit.appseed-srv1.com/) - LIVE App
 
 <br />
 
-## Quick Start in [Docker](https://www.docker.com/)
+## ✨ Quick Start in [Docker](https://www.docker.com/)
 
 > Get the code
 
@@ -47,7 +47,7 @@ Visit `http://localhost:85` in your browser. The app should be up & running.
 
 <br />
 
-## How to use it
+## ✨ How to use it
 
 ```bash
 $ # Get the code
@@ -82,7 +82,7 @@ $ # Access the web app in browser: http://127.0.0.1:8000/
 
 <br />
 
-## Code-base structure
+## ✨ Code-base structure
 
 The project is coded using a simple and intuitive structure presented bellow:
 
@@ -147,7 +147,7 @@ The project is coded using a simple and intuitive structure presented bellow:
 
 <br />
 
-## Recompile CSS
+## ✨ Recompile CSS
 
 To recompile SCSS files, follow this setup:
 
@@ -190,7 +190,7 @@ The generated file is saved in `static/assets/css` directory.
 
 <br /> 
 
-## Deployment
+## ✨ Deployment
 
 The app is provided with a basic configuration to be executed in [Docker](https://www.docker.com/), [Gunicorn](https://gunicorn.org/), and [Waitress](https://docs.pylonsproject.org/projects/waitress/en/stable/).
 
@@ -237,7 +237,7 @@ Visit `http://localhost:8001` in your browser. The app should be up & running.
 
 <br />
 
-## Credits & Links
+## ✨ Credits & Links
 
 - [Django](https://www.djangoproject.com/) - The official website
 - [Boilerplate Code](https://appseed.us/boilerplate-code) - Index provided by **AppSeed**
