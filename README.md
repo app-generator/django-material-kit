@@ -12,7 +12,7 @@
 - `DB Tools`: SQLite Database, Django Native ORM
 - Session-Based Authentication, Forms validation
 - `Deployment`: **Docker**, Gunicorn / Nginx
-- Support via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup).
+- Support via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup). 
 
 <br />
 
