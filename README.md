@@ -8,19 +8,19 @@
 
 - `Up-to-date dependencies`: **Django 3.2.6 LTS**
 - [SCSS compilation](#recompile-css) via **Gulp**
-- UI Kit: **Material Kit - v3.0.0** (Bootstrap 5 Version) by **Creative-Tim**
-- UI-Ready app, SQLite Database, Django Native ORM
-- Modular design, clean code-base
-- `Session-Based Authentication`, Forms validation
+- UI Kit: **Material Dashboard - v3.0.0** (Bootstrap 5 Version) by **Creative-Tim**
+- `DB Tools`: SQLite Database, Django Native ORM
+- Session-Based Authentication, Forms validation
 - `Deployment`: **Docker**, Gunicorn / Nginx
-- Support via **Github** and [Discord](https://discord.gg/fZC6hup).
+- Support via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup).
 
 <br />
 
 > Links
 
 - 👉 [Django Material Kit](https://appseed.us/product/django-material-kit) - Product page
-- 👉 [Django Material Kit](https://django-material-kit.appseed-srv1.com/) - LIVE App
+- 👉 [Django Material Kit](https://django-material-kit.appseed-srv1.com/) - LIVE Demo
+- 👉 More [Django Apps](https://appseed.us/django) - provided by AppSeed 
 
 <br />
 
