@@ -24,7 +24,7 @@
 
 <br />
 
-## ✨ Quick Start in [Docker](https://www.docker.com/)
+## ✨ Quick Start in `Docker`
 
 > Get the code
 
