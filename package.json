@@ -1,7 +1,7 @@
 {
     "name": "django-material-kit",
     "mastertemplate": "boilerplate-code-django",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Template project - Django Boilerplate Code",
     "scripts": {},
     "repository": {
