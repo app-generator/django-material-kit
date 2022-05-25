@@ -1,0 +1,281 @@
+<!--
+=========================================================
+* Material Kit 2 - v3.0.0
+=========================================================
+
+* Product Page: https://appseed.us/product/django-material-kit
+* Copyright 2021 Creative Tim (https://www.creative-tim.com)
+* Licensed under MIT (https://www.creative-tim.com/license)
+* Coded by Creative Tim
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="apple-touch-icon" sizes="76x76" href="{{ ASSETS_ROOT }}/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="{{ ASSETS_ROOT }}/img/favicon.png">
+
+  <title>
+    Django Material Kit 2 - Navbars | AppSeed
+  </title>
+
+  <!--     Fonts and icons     -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
+  <!-- Nucleo Icons -->
+  <link href="{{ ASSETS_ROOT }}/css/nucleo-icons.css" rel="stylesheet" />
+  <link href="{{ ASSETS_ROOT }}/css/nucleo-svg.css" rel="stylesheet" />
+  <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+  <!-- Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+  <!-- CSS Files -->
+  <link id="pagestyle" href="{{ ASSETS_ROOT }}/css/material-kit.css?v=3.0.0" rel="stylesheet" />
+
+</head>
+<body class="navbars-sections">
+
+  {% include 'includes/navigation-light.html' %}
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-lg-12 mx-auto">
+        <div class="mb-4 w-100 w-md-50 w-lg-25">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="https://demos.creative-tim.com/material-kit-pro/index">Navigation</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Navbars</li>
+            </ol>
+          </nav>
+          <h3>Navbars</h3>
+        </div>
+        <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
+          <div class="container border-bottom">
+            <div class="row justify-space-between py-2">
+              <div class="col-lg-3 me-auto">
+                <p class="lead text-dark pt-1 mb-0">Navbar dark</p>
+              </div>
+              <div class="col-lg-3">
+                <div class="nav-wrapper position-relative end-0">
+                  <ul class="nav nav-pills nav-fill flex-row p-1" role="tablist">
+                    <li class="nav-item">
+                      <a class="nav-link mb-0 px-0 py-1 active" data-bs-toggle="tab" href="#preview-navbar-dark" role="tab" aria-selected="true">
+                        <i class="fas fa-desktop text-sm me-2"></i> Preview
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="#code-navbar-dark" role="tab" aria-selected="false">
+                        <i class="fas fa-code text-sm me-2"></i> Code
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-content tab-space">
+            <div class="tab-pane active" id="preview-navbar-dark">
+              <iframe width="100%" height="300px" srcdoc='<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
+        <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+        <!-- Material Icons -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+        <link id="pagestyle" href="https://demos.creative-tim.com/material-kit/assets/css/material-kit.min.css?v=3.0.0" rel="stylesheet" />
+        <!-- Navbar Dark -->
+
+<nav
+  class="navbar navbar-expand-lg navbar-dark bg-gradient-dark z-index-3 py-3">
+  <div class="container">
+    <a class="navbar-brand text-white" href="/" rel="tooltip" title="Designed and Coded by Creative Tim" data-placement="bottom" target="_blank">
+      Material Kit 2
+    </a>
+    <a href="https://www.creative-tim.com/product/material-design-system-pro#pricingCard" class="btn btn-sm  bg-gradient-primary  btn-round mb-0 ms-auto d-lg-none d-block">Buy Now</a>
+    <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon mt-2">
+        <span class="navbar-toggler-bar bar1"></span>
+        <span class="navbar-toggler-bar bar2"></span>
+        <span class="navbar-toggler-bar bar3"></span>
+      </span>
+    </button>
+    <div class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0" id="navigation">
+      <ul class="navbar-nav navbar-nav-hover mx-auto">
+        <li class="nav-item mx-2">
+          <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" role="button">
+            Pages
+            <img src="{{ ASSETS_ROOT }}/img/down-arrow-white.svg" alt="down-arrow" class="arrow ms-1">
+          </a>
+        </li>
+
+        <li class="nav-item mx-2">
+          <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" role="button">
+            Account
+            <img src="{{ ASSETS_ROOT }}/img/down-arrow-white.svg" alt="down-arrow" class="arrow ms-1">
+          </a>
+        </li>
+        <li class="nav-item mx-2">
+          <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" role="button">
+            Blocks
+            <img src="{{ ASSETS_ROOT }}/img/down-arrow-white.svg" alt="down-arrow" class="arrow ms-1">
+          </a>
+        </li>
+
+        <li class="nav-item dropdown dropdown-hover mx-2">
+          <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" role="button">
+            Docs
+            <img src="{{ ASSETS_ROOT }}/img/down-arrow-white.svg" alt="down-arrow" class="arrow ms-1">
+          </a>
+        </li>
+      </ul>
+
+      <ul class="navbar-nav d-lg-block d-none">
+        <li class="nav-item">
+          <a href="https://www.creative-tim.com/product/material-design-system-pro#pricingCard" class="btn btn-sm  bg-gradient-primary  mb-0 me-1" role="button">Buy Now</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- End Navbar -->
+
+
+        <script src="{{ ASSETS_ROOT }}/js/core/popper.min.js" type="text/javascript"></script>
+        <script src="{{ ASSETS_ROOT }}/js/core/bootstrap.min.js" type="text/javascript"></script>
+        '></iframe>
+            </div>
+            <div class="tab-pane" id="code-navbar-dark">
+              <div class="position-relative p-4 pb-2">
+                <a class="btn btn-sm bg-gradient-dark position-absolute end-4 mt-3" onclick="copyCode(this);" href="javascript:;"><i class="fas fa-copy text-sm me-1"></i> Copy</a>
+                <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="c">&lt;!-- Navbar Dark --&gt;</span>
+
+<span class="nt">&lt;nav</span>
+  <span class="na">class=</span><span class="s">"navbar navbar-expand-lg navbar-dark bg-gradient-dark z-index-3 py-3"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"container"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"navbar-brand text-white"</span> <span class="na">href=</span><span class="s">"/"</span> <span class="na">rel=</span><span class="s">"tooltip"</span> <span class="na">title=</span><span class="s">"Designed and Coded by Creative Tim"</span> <span class="na">data-placement=</span><span class="s">"bottom"</span> <span class="na">target=</span><span class="s">"_blank"</span><span class="nt">&gt;</span>
+      Material Kit 2
+    <span class="nt">&lt;/a&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"https://www.creative-tim.com/product/material-design-system-pro#pricingCard"</span> <span class="na">class=</span><span class="s">"btn btn-sm  bg-gradient-primary  btn-round mb-0 ms-auto d-lg-none d-block"</span><span class="nt">&gt;</span>Buy Now<span class="nt">&lt;/a&gt;</span>
+    <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"navbar-toggler shadow-none ms-2"</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">data-bs-toggle=</span><span class="s">"collapse"</span> <span class="na">data-bs-target=</span><span class="s">"#navigation"</span> <span class="na">aria-controls=</span><span class="s">"navigation"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span> <span class="na">aria-label=</span><span class="s">"Toggle navigation"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"navbar-toggler-icon mt-2"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"navbar-toggler-bar bar1"</span><span class="nt">&gt;&lt;/span&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"navbar-toggler-bar bar2"</span><span class="nt">&gt;&lt;/span&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"navbar-toggler-bar bar3"</span><span class="nt">&gt;&lt;/span&gt;</span>
+      <span class="nt">&lt;/span&gt;</span>
+    <span class="nt">&lt;/button&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0"</span> <span class="na">id=</span><span class="s">"navigation"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"navbar-nav navbar-nav-hover mx-auto"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"nav-item mx-2"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center"</span> <span class="na">role=</span><span class="s">"button"</span><span class="nt">&gt;</span>
+            Pages
+            <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"{{ ASSETS_ROOT }}/img/down-arrow-white.svg"</span> <span class="na">alt=</span><span class="s">"down-arrow"</span> <span class="na">class=</span><span class="s">"arrow ms-1"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;/li&gt;</span>
+
+        <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"nav-item mx-2"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center"</span> <span class="na">role=</span><span class="s">"button"</span><span class="nt">&gt;</span>
+            Account
+            <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"{{ ASSETS_ROOT }}/img/down-arrow-white.svg"</span> <span class="na">alt=</span><span class="s">"down-arrow"</span> <span class="na">class=</span><span class="s">"arrow ms-1"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"nav-item mx-2"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center"</span> <span class="na">role=</span><span class="s">"button"</span><span class="nt">&gt;</span>
+            Blocks
+            <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"{{ ASSETS_ROOT }}/img/down-arrow-white.svg"</span> <span class="na">alt=</span><span class="s">"down-arrow"</span> <span class="na">class=</span><span class="s">"arrow ms-1"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;/li&gt;</span>
+
+        <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"nav-item dropdown dropdown-hover mx-2"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center"</span> <span class="na">role=</span><span class="s">"button"</span><span class="nt">&gt;</span>
+            Docs
+            <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"{{ ASSETS_ROOT }}/img/down-arrow-white.svg"</span> <span class="na">alt=</span><span class="s">"down-arrow"</span> <span class="na">class=</span><span class="s">"arrow ms-1"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;/li&gt;</span>
+      <span class="nt">&lt;/ul&gt;</span>
+
+      <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"navbar-nav d-lg-block d-none"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"nav-item"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"https://www.creative-tim.com/product/material-design-system-pro#pricingCard"</span> <span class="na">class=</span><span class="s">"btn btn-sm  bg-gradient-primary  mb-0 me-1"</span> <span class="na">role=</span><span class="s">"button"</span><span class="nt">&gt;</span>Buy Now<span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;/li&gt;</span>
+      <span class="nt">&lt;/ul&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/nav&gt;</span>
+<span class="c">&lt;!-- End Navbar --&gt;</span></code></pre>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
+          <div class="container border-bottom">
+            <div class="row py-3">
+              <div class="col-lg-4 text-start">
+                <p class="lead text-dark pt-1 mb-0">Navbar light</p>
+              </div>
+              <div class="col-lg-4 mt-1 text-center">
+                <span class="badge bg-light text-dark"><i class="fas fa-lock me-1" aria-hidden="true"></i> Screenshot</span>
+              </div>
+              <div class="col-lg-4 text-end my-auto">
+                <a href="https://appseed.us/product/django-material-kit2-pro" target="_blank" class="text-primary icon-move-right">PRO Component
+                  <i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img class="w-100" src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/assets/img/sections/navbars/navbar-light.jpg" alt="navbar-2">
+          </div>
+        </div>
+        <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
+          <div class="container border-bottom">
+            <div class="row py-3">
+              <div class="col-lg-4 text-start">
+                <p class="lead text-dark pt-1 mb-0">Navbar transparent</p>
+              </div>
+              <div class="col-lg-4 mt-1 text-center">
+                <span class="badge bg-light text-dark"><i class="fas fa-lock me-1" aria-hidden="true"></i> Screenshot</span>
+              </div>
+              <div class="col-lg-4 text-end my-auto">
+                <a href="https://appseed.us/product/django-material-kit2-pro" target="_blank" class="text-primary icon-move-right">PRO Component
+                  <i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img class="w-100" src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/assets/img/sections/navbars/navbar-transparent.jpg" alt="navbar-3">
+          </div>
+        </div>
+        <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
+          <div class="container border-bottom">
+            <div class="row py-3">
+              <div class="col-lg-4 text-start">
+                <p class="lead text-dark pt-1 mb-0">Navbar blur</p>
+              </div>
+              <div class="col-lg-4 mt-1 text-center">
+                <span class="badge bg-light text-dark"><i class="fas fa-lock me-1" aria-hidden="true"></i> Screenshot</span>
+              </div>
+              <div class="col-lg-4 text-end my-auto">
+                <a href="https://appseed.us/product/django-material-kit2-pro" target="_blank" class="text-primary icon-move-right">PRO Component
+                  <i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img class="w-100" src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/assets/img/sections/navbars/navbar-blur.jpg" alt="navbar-4">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {% include 'includes/footer-components.html' %} 
+
+  {% include 'includes/scripts.html' %} 
+
+</body>
+</html>

@@ -1,0 +1,668 @@
+<!--
+=========================================================
+* Material Kit 2 - v3.0.0
+=========================================================
+
+* Product Page: https://appseed.us/product/django-material-kit
+* Copyright 2021 Creative Tim (https://www.creative-tim.com)
+* Licensed under MIT (https://www.creative-tim.com/license)
+* Coded by Creative Tim
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="apple-touch-icon" sizes="76x76" href="{{ ASSETS_ROOT }}/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="{{ ASSETS_ROOT }}/img/favicon.png">
+
+  <title>
+    Django Material Kit 2 - Typography | AppSeed
+  </title>
+
+  <!--     Fonts and icons     -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
+  <!-- Nucleo Icons -->
+  <link href="{{ ASSETS_ROOT }}/css/nucleo-icons.css" rel="stylesheet" />
+  <link href="{{ ASSETS_ROOT }}/css/nucleo-svg.css" rel="stylesheet" />
+  <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+  <!-- Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+  <!-- CSS Files -->
+  <link id="pagestyle" href="{{ ASSETS_ROOT }}/css/material-kit.css?v=3.0.0" rel="stylesheet" />
+
+</head>
+<body class="typography-sections">
+
+  {% include 'includes/navigation-light.html' %}
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-lg-12 mx-auto">
+        <div class="mb-4 w-100 w-md-50 w-lg-25">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="https://demos.creative-tim.com/material-kit-pro/index">Elements</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Typography</li>
+            </ol>
+          </nav>
+          <h3>Typography</h3>
+        </div>
+        <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
+          <div class="container border-bottom">
+            <div class="row justify-space-between py-2">
+              <div class="col-lg-3 me-auto">
+                <p class="lead text-dark pt-1 mb-0">Typography - Font Family Roboto</p>
+              </div>
+              <div class="col-lg-3">
+                <div class="nav-wrapper position-relative end-0">
+                  <ul class="nav nav-pills nav-fill flex-row p-1" role="tablist">
+                    <li class="nav-item">
+                      <a class="nav-link mb-0 px-0 py-1 active" data-bs-toggle="tab" href="#preview-typography-serif" role="tab" aria-selected="true">
+                        <i class="fas fa-desktop text-sm me-2"></i> Preview
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="#code-typography-serif" role="tab" aria-selected="false">
+                        <i class="fas fa-code text-sm me-2"></i> Code
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-content tab-space">
+            <div class="tab-pane active" id="preview-typography-serif">
+              <iframe class="w-100 height-600" srcdoc='<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
+        <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+        <link id="pagestyle" href="https://demos.creative-tim.com/material-kit/assets/css/material-kit.min.css?v=3.0.0" rel="stylesheet" />
+        <div style="position:relative;padding-top:4rem">
+  <div class="text-sans-serif container">
+    <h2 class="h2 mb-5">
+      <span>Typography - Font Family Roboto</span>
+    </h2>
+    <div class="py-3 align-items-center row">
+      <div class="col-sm-3">
+        <small class="text-uppercase font-weight-bold">Heading 1</small>
+      </div>
+
+      <div class="col-sm-9">
+        <h1 class="mb-0">H1 Material Kit</h1>
+      </div>
+    </div>
+
+    <div class="py-3 align-items-center row">
+      <div class="col-sm-3">
+        <small class="text-uppercase font-weight-bold">Heading 2</small>
+      </div>
+
+      <div class="col-sm-9">
+        <h2 class="mb-0">H2 Material Kit</h2>
+      </div>
+    </div>
+
+    <div class="py-3 align-items-center row">
+      <div class="col-sm-3">
+        <small class="text-uppercase font-weight-bold">Heading 3</small>
+      </div>
+
+      <div class="col-sm-9">
+        <h3 class="mb-0">H3 Material Kit</h3>
+      </div>
+    </div>
+
+    <div class="py-3 align-items-center row">
+      <div class="col-sm-3">
+        <small class="text-uppercase font-weight-bold">Heading 4</small>
+      </div>
+
+      <div class="col-sm-9">
+        <h4 class="mb-0">H4 Material Kit</h4>
+      </div>
+    </div>
+
+    <div class="py-3 align-items-center row">
+      <div class="col-sm-3">
+        <small class="text-uppercase font-weight-bold">Heading 5</small>
+      </div>
+
+      <div class="col-sm-9">
+        <h5 class="mb-0">H5 Material Kit</h5>
+      </div>
+    </div>
+
+    <div class="py-3 align-items-center row">
+      <div class="col-sm-3">
+        <small class="text-uppercase font-weight-bold">Heading 6</small>
+      </div>
+
+      <div class="col-sm-9">
+        <h6 class="mb-0">H6 Material Kit</h6>
+      </div>
+    </div>
+
+    <div class="py-3 align-items-center row">
+      <div class="col-sm-3">
+        <small class="text-uppercase font-weight-bold">Lead text</small>
+      </div>
+
+      <div class="col-sm-9">
+        <p class="lead mb-0">
+          I will be the leader of a company that ends up being worth
+          billions of dollars, because I got the answers. I understand
+          culture. I am the nucleus. I think that&#39;s a responsibility that I
+          have, to push possibilities, to show people, this is the level
+          that things could be at.
+        </p>
+      </div>
+    </div>
+
+    <div class="py-3 align-items-center row">
+      <div class="col-sm-3">
+        <small class="text-uppercase font-weight-bold">Paragraph</small>
+      </div>
+
+      <div class="col-sm-9">
+        <p class="mb-0">
+          I will be the leader of a company that ends up being worth
+          billions of dollars, because I got the answers. I understand
+          culture. I am the nucleus. I think that&#39;s a responsibility that I
+          have, to push possibilities, to show people, this is the level
+          that things could be at.
+        </p>
+      </div>
+    </div>
+
+    <div class="py-3 align-items-center row">
+      <div class="col-sm-3">
+        <small class="text-uppercase font-weight-bold">Small</small>
+      </div>
+
+      <div class="col-sm-9">
+        <p class="text-sm mb-0">
+          I will be the leader of a company that ends up being worth
+          billions of dollars, because I got the answers. I understand
+          culture. I am the nucleus. I think that&#39;s a responsibility that I
+          have, to push possibilities, to show people, this is the level
+          that things could be at.
+        </p>
+      </div>
+    </div>
+
+    <div class="py-3 align-items-center row">
+      <div class="col-sm-3">
+        <small class="text-uppercase font-weight-bold">Tiny</small>
+      </div>
+
+      <div class="col-sm-9">
+        <p class="text-xs mb-0">
+          I will be the leader of a company that ends up being worth
+          billions of dollars, because I got the answers. I understand
+          culture. I am the nucleus. I think that&#39;s a responsibility that I
+          have, to push possibilities, to show people, this is the level
+          that things could be at.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        '></iframe>
+            </div>
+            <div class="tab-pane" id="code-typography-serif">
+              <div class="position-relative p-4 pb-2">
+                <a class="btn btn-sm bg-gradient-dark position-absolute end-4 mt-3" onclick="copyCode(this);" href="javascript:;"><i class="fas fa-copy text-sm me-1"></i> Copy</a>
+                <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">style=</span><span class="s">"position:relative;padding-top:4rem"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"text-sans-serif container"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;h2</span> <span class="na">class=</span><span class="s">"h2 mb-5"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;span&gt;</span>Typography - Font Family Roboto<span class="nt">&lt;/span&gt;</span>
+    <span class="nt">&lt;/h2&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"py-3 align-items-center row"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-3"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;small</span> <span class="na">class=</span><span class="s">"text-uppercase font-weight-bold"</span><span class="nt">&gt;</span>Heading 1<span class="nt">&lt;/small&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-9"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;h1</span> <span class="na">class=</span><span class="s">"mb-0"</span><span class="nt">&gt;</span>H1 Material Kit<span class="nt">&lt;/h1&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"py-3 align-items-center row"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-3"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;small</span> <span class="na">class=</span><span class="s">"text-uppercase font-weight-bold"</span><span class="nt">&gt;</span>Heading 2<span class="nt">&lt;/small&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-9"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;h2</span> <span class="na">class=</span><span class="s">"mb-0"</span><span class="nt">&gt;</span>H2 Material Kit<span class="nt">&lt;/h2&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"py-3 align-items-center row"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-3"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;small</span> <span class="na">class=</span><span class="s">"text-uppercase font-weight-bold"</span><span class="nt">&gt;</span>Heading 3<span class="nt">&lt;/small&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-9"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;h3</span> <span class="na">class=</span><span class="s">"mb-0"</span><span class="nt">&gt;</span>H3 Material Kit<span class="nt">&lt;/h3&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"py-3 align-items-center row"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-3"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;small</span> <span class="na">class=</span><span class="s">"text-uppercase font-weight-bold"</span><span class="nt">&gt;</span>Heading 4<span class="nt">&lt;/small&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-9"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;h4</span> <span class="na">class=</span><span class="s">"mb-0"</span><span class="nt">&gt;</span>H4 Material Kit<span class="nt">&lt;/h4&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"py-3 align-items-center row"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-3"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;small</span> <span class="na">class=</span><span class="s">"text-uppercase font-weight-bold"</span><span class="nt">&gt;</span>Heading 5<span class="nt">&lt;/small&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-9"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;h5</span> <span class="na">class=</span><span class="s">"mb-0"</span><span class="nt">&gt;</span>H5 Material Kit<span class="nt">&lt;/h5&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"py-3 align-items-center row"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-3"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;small</span> <span class="na">class=</span><span class="s">"text-uppercase font-weight-bold"</span><span class="nt">&gt;</span>Heading 6<span class="nt">&lt;/small&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-9"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;h6</span> <span class="na">class=</span><span class="s">"mb-0"</span><span class="nt">&gt;</span>H6 Material Kit<span class="nt">&lt;/h6&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"py-3 align-items-center row"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-3"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;small</span> <span class="na">class=</span><span class="s">"text-uppercase font-weight-bold"</span><span class="nt">&gt;</span>Lead text<span class="nt">&lt;/small&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-9"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"lead mb-0"</span><span class="nt">&gt;</span>
+          I will be the leader of a company that ends up being worth
+          billions of dollars, because I got the answers. I understand
+          culture. I am the nucleus. I think that<span class="ni">&amp;#39;</span>s a responsibility that I
+          have, to push possibilities, to show people, this is the level
+          that things could be at.
+        <span class="nt">&lt;/p&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"py-3 align-items-center row"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-3"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;small</span> <span class="na">class=</span><span class="s">"text-uppercase font-weight-bold"</span><span class="nt">&gt;</span>Paragraph<span class="nt">&lt;/small&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-9"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"mb-0"</span><span class="nt">&gt;</span>
+          I will be the leader of a company that ends up being worth
+          billions of dollars, because I got the answers. I understand
+          culture. I am the nucleus. I think that<span class="ni">&amp;#39;</span>s a responsibility that I
+          have, to push possibilities, to show people, this is the level
+          that things could be at.
+        <span class="nt">&lt;/p&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"py-3 align-items-center row"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-3"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;small</span> <span class="na">class=</span><span class="s">"text-uppercase font-weight-bold"</span><span class="nt">&gt;</span>Small<span class="nt">&lt;/small&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-9"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"text-sm mb-0"</span><span class="nt">&gt;</span>
+          I will be the leader of a company that ends up being worth
+          billions of dollars, because I got the answers. I understand
+          culture. I am the nucleus. I think that<span class="ni">&amp;#39;</span>s a responsibility that I
+          have, to push possibilities, to show people, this is the level
+          that things could be at.
+        <span class="nt">&lt;/p&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"py-3 align-items-center row"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-3"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;small</span> <span class="na">class=</span><span class="s">"text-uppercase font-weight-bold"</span><span class="nt">&gt;</span>Tiny<span class="nt">&lt;/small&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-9"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"text-xs mb-0"</span><span class="nt">&gt;</span>
+          I will be the leader of a company that ends up being worth
+          billions of dollars, because I got the answers. I understand
+          culture. I am the nucleus. I think that<span class="ni">&amp;#39;</span>s a responsibility that I
+          have, to push possibilities, to show people, this is the level
+          that things could be at.
+        <span class="nt">&lt;/p&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
+          <div class="container border-bottom">
+            <div class="row justify-space-between py-2">
+              <div class="col-lg-3 me-auto">
+                <p class="lead text-dark pt-1 mb-0">Typography - Font Family Monospace</p>
+              </div>
+              <div class="col-lg-3">
+                <div class="nav-wrapper position-relative end-0">
+                  <ul class="nav nav-pills nav-fill flex-row p-1" role="tablist">
+                    <li class="nav-item">
+                      <a class="nav-link mb-0 px-0 py-1 active" data-bs-toggle="tab" href="#preview-typography-monospace" role="tab" aria-selected="true">
+                        <i class="fas fa-desktop text-sm me-2"></i> Preview
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="#code-typography-monospace" role="tab" aria-selected="false">
+                        <i class="fas fa-code text-sm me-2"></i> Code
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-content tab-space">
+            <div class="tab-pane active" id="preview-typography-monospace">
+              <iframe class="w-100 height-600" srcdoc='<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
+        <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+        <link id="pagestyle" href="https://demos.creative-tim.com/material-kit/assets/css/material-kit.min.css?v=3.0.0" rel="stylesheet" />
+        <div style="position:relative;padding-top:4rem">
+  <div class="text-monospace container ">
+    <h2 class="h2 mb-5">
+      <span>Typography - Font Family Monospace</span>
+    </h2>
+    <div class="py-3 align-items-center row">
+      <div class="col-sm-3">
+        <small class="text-uppercase font-weight-bold">Heading 1</small>
+      </div>
+
+      <div class="col-sm-9">
+        <h1 class="mb-0">H1 Material Kit</h1>
+      </div>
+    </div>
+
+    <div class="py-3 align-items-center row">
+      <div class="col-sm-3">
+        <small class="text-uppercase font-weight-bold">Heading 2</small>
+      </div>
+
+      <div class="col-sm-9">
+        <h2 class="mb-0">H2 Material Kit</h2>
+      </div>
+    </div>
+
+    <div class="py-3 align-items-center row">
+      <div class="col-sm-3">
+        <small class="text-uppercase font-weight-bold">Heading 3</small>
+      </div>
+
+      <div class="col-sm-9">
+        <h3 class="mb-0">H3 Material Kit</h3>
+      </div>
+    </div>
+
+    <div class="py-3 align-items-center row">
+      <div class="col-sm-3">
+        <small class="text-uppercase font-weight-bold">Heading 4</small>
+      </div>
+
+      <div class="col-sm-9">
+        <h4 class="mb-0">H4 Material Kit</h4>
+      </div>
+    </div>
+
+    <div class="py-3 align-items-center row">
+      <div class="col-sm-3">
+        <small class="text-uppercase font-weight-bold">Heading 5</small>
+      </div>
+
+      <div class="col-sm-9">
+        <h5 class="mb-0">H5 Material Kit</h5>
+      </div>
+    </div>
+
+    <div class="py-3 align-items-center row">
+      <div class="col-sm-3">
+        <small class="text-uppercase font-weight-bold">Heading 6</small>
+      </div>
+
+      <div class="col-sm-9">
+        <h6 class="mb-0">H6 Material Kit</h6>
+      </div>
+    </div>
+
+    <div class="py-3 align-items-center row">
+      <div class="col-sm-3">
+        <small class="text-uppercase font-weight-bold">Lead text</small>
+      </div>
+
+      <div class="col-sm-9">
+        <p class="lead mb-0">
+          I will be the leader of a company that ends up being worth
+          billions of dollars, because I got the answers. I understand
+          culture. I am the nucleus. I think that&#39;s a responsibility that I
+          have, to push possibilities, to show people, this is the level
+          that things could be at.
+        </p>
+      </div>
+    </div>
+
+    <div class="py-3 align-items-center row">
+      <div class="col-sm-3">
+        <small class="text-uppercase font-weight-bold">Paragraph</small>
+      </div>
+
+      <div class="col-sm-9">
+        <p class="mb-0">
+          I will be the leader of a company that ends up being worth
+          billions of dollars, because I got the answers. I understand
+          culture. I am the nucleus. I think that&#39;s a responsibility that I
+          have, to push possibilities, to show people, this is the level
+          that things could be at.
+        </p>
+      </div>
+    </div>
+
+    <div class="py-3 align-items-center row">
+      <div class="col-sm-3">
+        <small class="text-uppercase font-weight-bold">Small</small>
+      </div>
+
+      <div class="col-sm-9">
+        <p class="text-sm mb-0">
+          I will be the leader of a company that ends up being worth
+          billions of dollars, because I got the answers. I understand
+          culture. I am the nucleus. I think that&#39;s a responsibility that I
+          have, to push possibilities, to show people, this is the level
+          that things could be at.
+        </p>
+      </div>
+    </div>
+
+    <div class="py-3 align-items-center row">
+      <div class="col-sm-3">
+        <small class="text-uppercase font-weight-bold">Tiny</small>
+      </div>
+
+      <div class="col-sm-9">
+        <p class="text-xs mb-0">
+          I will be the leader of a company that ends up being worth
+          billions of dollars, because I got the answers. I understand
+          culture. I am the nucleus. I think that&#39;s a responsibility that I
+          have, to push possibilities, to show people, this is the level
+          that things could be at.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        '></iframe>
+            </div>
+            <div class="tab-pane" id="code-typography-monospace">
+              <div class="position-relative p-4 pb-2">
+                <a class="btn btn-sm bg-gradient-dark position-absolute end-4 mt-3" onclick="copyCode(this);" href="javascript:;"><i class="fas fa-copy text-sm me-1"></i> Copy</a>
+                <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">style=</span><span class="s">"position:relative;padding-top:4rem"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"text-monospace container "</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;h2</span> <span class="na">class=</span><span class="s">"h2 mb-5"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;span&gt;</span>Typography - Font Family Monospace<span class="nt">&lt;/span&gt;</span>
+    <span class="nt">&lt;/h2&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"py-3 align-items-center row"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-3"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;small</span> <span class="na">class=</span><span class="s">"text-uppercase font-weight-bold"</span><span class="nt">&gt;</span>Heading 1<span class="nt">&lt;/small&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-9"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;h1</span> <span class="na">class=</span><span class="s">"mb-0"</span><span class="nt">&gt;</span>H1 Material Kit<span class="nt">&lt;/h1&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"py-3 align-items-center row"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-3"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;small</span> <span class="na">class=</span><span class="s">"text-uppercase font-weight-bold"</span><span class="nt">&gt;</span>Heading 2<span class="nt">&lt;/small&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-9"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;h2</span> <span class="na">class=</span><span class="s">"mb-0"</span><span class="nt">&gt;</span>H2 Material Kit<span class="nt">&lt;/h2&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"py-3 align-items-center row"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-3"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;small</span> <span class="na">class=</span><span class="s">"text-uppercase font-weight-bold"</span><span class="nt">&gt;</span>Heading 3<span class="nt">&lt;/small&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-9"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;h3</span> <span class="na">class=</span><span class="s">"mb-0"</span><span class="nt">&gt;</span>H3 Material Kit<span class="nt">&lt;/h3&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"py-3 align-items-center row"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-3"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;small</span> <span class="na">class=</span><span class="s">"text-uppercase font-weight-bold"</span><span class="nt">&gt;</span>Heading 4<span class="nt">&lt;/small&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-9"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;h4</span> <span class="na">class=</span><span class="s">"mb-0"</span><span class="nt">&gt;</span>H4 Material Kit<span class="nt">&lt;/h4&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"py-3 align-items-center row"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-3"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;small</span> <span class="na">class=</span><span class="s">"text-uppercase font-weight-bold"</span><span class="nt">&gt;</span>Heading 5<span class="nt">&lt;/small&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-9"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;h5</span> <span class="na">class=</span><span class="s">"mb-0"</span><span class="nt">&gt;</span>H5 Material Kit<span class="nt">&lt;/h5&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"py-3 align-items-center row"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-3"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;small</span> <span class="na">class=</span><span class="s">"text-uppercase font-weight-bold"</span><span class="nt">&gt;</span>Heading 6<span class="nt">&lt;/small&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-9"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;h6</span> <span class="na">class=</span><span class="s">"mb-0"</span><span class="nt">&gt;</span>H6 Material Kit<span class="nt">&lt;/h6&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"py-3 align-items-center row"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-3"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;small</span> <span class="na">class=</span><span class="s">"text-uppercase font-weight-bold"</span><span class="nt">&gt;</span>Lead text<span class="nt">&lt;/small&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-9"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"lead mb-0"</span><span class="nt">&gt;</span>
+          I will be the leader of a company that ends up being worth
+          billions of dollars, because I got the answers. I understand
+          culture. I am the nucleus. I think that<span class="ni">&amp;#39;</span>s a responsibility that I
+          have, to push possibilities, to show people, this is the level
+          that things could be at.
+        <span class="nt">&lt;/p&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"py-3 align-items-center row"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-3"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;small</span> <span class="na">class=</span><span class="s">"text-uppercase font-weight-bold"</span><span class="nt">&gt;</span>Paragraph<span class="nt">&lt;/small&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-9"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"mb-0"</span><span class="nt">&gt;</span>
+          I will be the leader of a company that ends up being worth
+          billions of dollars, because I got the answers. I understand
+          culture. I am the nucleus. I think that<span class="ni">&amp;#39;</span>s a responsibility that I
+          have, to push possibilities, to show people, this is the level
+          that things could be at.
+        <span class="nt">&lt;/p&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"py-3 align-items-center row"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-3"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;small</span> <span class="na">class=</span><span class="s">"text-uppercase font-weight-bold"</span><span class="nt">&gt;</span>Small<span class="nt">&lt;/small&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-9"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"text-sm mb-0"</span><span class="nt">&gt;</span>
+          I will be the leader of a company that ends up being worth
+          billions of dollars, because I got the answers. I understand
+          culture. I am the nucleus. I think that<span class="ni">&amp;#39;</span>s a responsibility that I
+          have, to push possibilities, to show people, this is the level
+          that things could be at.
+        <span class="nt">&lt;/p&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"py-3 align-items-center row"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-3"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;small</span> <span class="na">class=</span><span class="s">"text-uppercase font-weight-bold"</span><span class="nt">&gt;</span>Tiny<span class="nt">&lt;/small&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-9"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"text-xs mb-0"</span><span class="nt">&gt;</span>
+          I will be the leader of a company that ends up being worth
+          billions of dollars, because I got the answers. I understand
+          culture. I am the nucleus. I think that<span class="ni">&amp;#39;</span>s a responsibility that I
+          have, to push possibilities, to show people, this is the level
+          that things could be at.
+        <span class="nt">&lt;/p&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  {% include 'includes/footer-components.html' %} 
+
+  {% include 'includes/scripts.html' %} 
+
+</body>
+</html>
