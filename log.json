@@ -13,11 +13,11 @@
     "heroku": "0",
     "pattern": "mvc",
     "pro": "0",
-    "task_id": "de50726c-6382-4e2c-98ea-460c0d503809",
+    "task_id": "1303bc24-d2bb-4dc6-9d2a-d2e84c2ab72c",
     "task_info": "Task is finished",
-    "task_output": "de50726c-6382-4e2c-98ea-460c0d503809.zip",
+    "task_output": "1303bc24-d2bb-4dc6-9d2a-d2e84c2ab72c.zip",
     "task_result": "SUCCESS",
     "task_state": "FINISHED",
-    "task_ts_end": "2022-05-25-22-04-28",
-    "task_ts_start": "2022-05-25-22-04-06"
+    "task_ts_end": "2022-05-31-07-49-52",
+    "task_ts_start": "2022-05-31-07-49-28"
 }
