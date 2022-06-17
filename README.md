@@ -5,14 +5,7 @@
 - 👉 [Django Material Kit](https://appseed.us/product/material-kit/django/) - product page
 - 👉 [Django Material Kit](https://django-material-kit.appseed-srv1.com/) - LIVE App
 - 👉 [Complete documentation](https://docs.appseed.us/products/django-apps/material-kit) - `Learn how to use and update the product`
-  - ✅ [Set up the environment](https://docs.appseed.us/products/django-apps/material-kit#environment)
-  - ✅ [Start the app in Docker](https://docs.appseed.us/products/django-apps/material-kit#start-the-app-in-docker)
-  - ✅ [Manual Build](https://docs.appseed.us/products/django-apps/material-kit#manual-build)
-  - ✅ [Manage App Users](https://docs.appseed.us/products/django-apps/material-kit#manage-app-users)
-  - ✅ [UI Assets and Templates](https://docs.appseed.us/products/django-apps/material-kit#ui-assets-and-templates)
-  - ✅ [Set up the MySql Database](https://docs.appseed.us/products/django-apps/material-kit#set-up-the-mysql-database)
-  - ✅ [Adding a new app](https://docs.appseed.us/products/django-apps/material-kit#adding-a-new-app)
-  - ✅ [Static Assets for production](https://docs.appseed.us/products/django-apps/material-kit#static-assets-for-production)  
+- ✅ [PRO Version Available](#pro-version) - `enhanced UI` and more `features` 
   
 <br />
 
@@ -226,7 +219,8 @@ The project is coded using a simple and intuitive structure presented below:
 **Material Kit 2** is a premium design crafted by the `Creative-Tim` agency on top of Bootstrap 5 Framework. Designed for those who like bold elements and beautiful websites, Material Kit 2 is made of hundreds of elements, designed blocks, and fully coded pages built with an impressive level of quality.
 
 - 👉 [Django Material Kit2 PRO](https://appseed.us/product/material-kit2-pro/django/) - product page
-- 👉 [Django Material Kit2 PRO](https://django-material-kit2-pro.appseed-srv1.com/) - LIVE Demo
+  - ✅ `Enhanced UI` - more pages and components
+  - ✅ `Priority` on support
 
 <br >
 
