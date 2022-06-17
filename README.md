@@ -212,7 +212,7 @@ The project is coded using a simple and intuitive structure presented below:
 
 <br />
 
-## ✨ PRO Version
+## PRO Version
 
 > For more components, pages and priority on support, feel free to take a look at this amazing starter:
 
