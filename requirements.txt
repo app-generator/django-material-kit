@@ -1,0 +1,8 @@
+django
+gunicorn
+python-dotenv
+whitenoise
+django-theme-material-kit==1.0.15
+
+# psycopg2-binary
+# mysqlclient
