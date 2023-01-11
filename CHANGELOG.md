@@ -1,5 +1,13 @@
 # Change Log
 
+## [1.0.5] 2023-01-11
+### Changes
+
+- Move to theme-based pattern
+  - [Django Theme Pixel](https://github.com/app-generator/django-theme-pixel)
+- 🚀 `Deployment` 
+  - `CI/CD` flow via `Render`
+
 ## [1.0.4] 2022-05-30
 ### Improvements
 
