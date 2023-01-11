@@ -4,7 +4,7 @@
 ### Changes
 
 - Move to theme-based pattern
-  - [Django Theme Pixel](https://github.com/app-generator/django-theme-pixel)
+  - [Django Theme Material Kit](https://github.com/app-generator/django-theme-material-kit)
 - 🚀 `Deployment` 
   - `CI/CD` flow via `Render`
 
