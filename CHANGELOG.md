@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.6] 2023-01-11
+### Changes
+
+- Bump Theme Version:
+  - [Django Theme Material Kit](https://github.com/app-generator/django-theme-material-kit) `v1.0.16`
+
 ## [1.0.5] 2023-01-11
 ### Changes
 
