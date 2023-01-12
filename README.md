@@ -5,7 +5,7 @@ The product is designed to deliver the best possible user experience with highly
 
 - 👉 [Django Material Kit](https://appseed.us/product/material-kit/django/) - `Product page`
 - 👉 [Django Material Kit](https://django-material-kit.appseed-srv1.com/) - `LIVE Demo`
-- 🛒 **[Django Material Kit PRO](https://appseed.us/product/pixel-bootstrap-pro/django/)** - `Premium Version`
+- 🛒 **[Django Material Kit PRO](https://appseed.us/product/material-kit2-pro/django/)** - `Premium Version`
 
 <br />
 
