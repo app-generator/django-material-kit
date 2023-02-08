@@ -1,5 +1,17 @@
 # Change Log
 
+## [1.0.7] 2023-02-08
+### Changes
+
+- Bump UI: [Django Theme Material Kit](https://github.com/app-generator/django-theme-material-kit) `v1.0.18`
+- DOCS Update (readme). New sections:
+  - `How to customize the theme`
+  - Render deployment
+- Configure the project to use `home/templates`
+- Added `index-footer` sample
+- `Fix Docker` Execution
+  - `Update Settings`: ALLOWED_HOSTS, CSRF_TRUSTED_ORIGINS `sections`
+
 ## [1.0.6] 2023-01-11
 ### Changes
 
