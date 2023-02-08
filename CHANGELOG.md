@@ -8,7 +8,7 @@
   - `How to customize the theme`
   - Render deployment
 - Configure the project to use `home/templates`
-- Added `index-footer` sample
+- Added `custom-index` sample
 - `Fix Docker` Execution
   - `Update Settings`: ALLOWED_HOSTS, CSRF_TRUSTED_ORIGINS `sections`
 
