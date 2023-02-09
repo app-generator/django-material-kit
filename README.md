@@ -134,12 +134,12 @@ The theme used to style this starter provides the following files:
 
 When the project requires customization, we need to copy the original file that needs an update (from the virtual environment) and place it in the template folder using the same path. 
 
-> For instance, if we want to **customize the footer.html** these are the steps:
+> For instance, if we want to **customize the index.html** these are the steps:
 
 - ✅ `Step 1`: create the `templates` DIRECTORY inside the `home` app
 - ✅ `Step 2`: configure the project to use this new template directory
   - `core/settings.py` TEMPLATES section
-- ✅ `Step 3`: copy the `footer.html` from the original location (inside your ENV) and save it to the `home/templates` DIR
+- ✅ `Step 3`: copy the `index.html` from the original location (inside your ENV) and save it to the `home/templates` DIR
   - Source PATH: `<YOUR_ENV>/LIB/theme_material_kit/template/pages/index.html`
   - Destination PATH: `<PROJECT_ROOT>home/templates/pages/index.html`
 
