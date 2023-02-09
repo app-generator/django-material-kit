@@ -12,7 +12,7 @@ The product is designed to deliver the best possible user experience with highly
 > Features: 
 
 - ✅ `Up-to-date Dependencies`
-- ✅ Theme: [Django Theme Material Kit](https://github.com/app-generator/django-theme-material-kit)
+- ✅ Theme: [Django Theme Material Kit](https://github.com/app-generator/django-theme-material-kit), designed by [Creative-Tim](https://www.creative-tim.com/product/material-kit?AFFILIATE=128200) 
 - ✅ **Authentication**: `Django.contrib.AUTH`, Registration
 - 🚀 `Deployment` 
   - `CI/CD` flow via `Render`
