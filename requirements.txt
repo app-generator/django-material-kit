@@ -2,7 +2,7 @@ django
 gunicorn
 python-dotenv
 whitenoise
-django-theme-material-kit==1.0.18
+django-theme-material-kit==1.0.19
 
 # psycopg2-binary
 # mysqlclient
