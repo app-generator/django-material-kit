@@ -89,7 +89,7 @@ The project is coded using a simple and intuitive structure presented below:
    |    |-- tests.py                     # Tests  
    |    |-- templates/                   # Theme Customisation 
    |         |-- pages                   # 
-   |              |-- custom-index.py    # Custom Footer      
+   |              |-- custom-index.html  # Custom Footer      
    |     
    |-- requirements.txt                  # Project Dependencies
    |
