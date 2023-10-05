@@ -1,6 +1,6 @@
 # [Django Material Kit](https://appseed.us/product/material-kit/django/)
 
-Open-source **Django** project crafted on top of **[Material Kit](https://appseed.us/product/material-kit/django/)**, an open-source design from [Creative-Tim](https://www.creative-tim.com/?AFFILIATE=128200).
+Open-source **[Django App](https://appseed.us/apps/django/)** crafted on top of **Material Kit UI**, an open-source design from `Creative-Tim`.
 The product is designed to deliver the best possible user experience with highly customizable feature-rich pages. 
 
 - 👉 [Django Material Kit](https://appseed.us/product/material-kit/django/) - `Product page`
