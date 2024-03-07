@@ -1,8 +1,14 @@
-django
-gunicorn
-python-dotenv
-whitenoise
+# Core
+django==4.2.9
+python-dotenv==1.0.1
+str2bool==1.1
+
+# UI
 django-theme-material-kit==1.0.19
+
+# Deployment
+whitenoise==6.6.0
+gunicorn==21.2.0
 
 # psycopg2-binary
 # mysqlclient
