@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.0.9] 2024-05-18
+### Changes
+
+- Updated DOCS (readme)
+  - [Custom Development](https://appseed.us/custom-development/) Section
+  - [CI/CD Assistance for AWS, DO](https://appseed.us/terms/#section-ci-cd)
+
 ## [1.0.8] 2024-03-05
 ### Changes
 
