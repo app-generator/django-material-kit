@@ -50,7 +50,7 @@ The product is designed to deliver the best possible user experience with highly
 - Docker 
 - CI/CD integration for Render 
 
-![Django Material Dash2 PRO - Premium starter crafted by App-Generator.](https://user-images.githubusercontent.com/51070104/173217499-a443fd60-2564-42f3-8bb6-4a498823f670.png)
+![Django Material Kit PRO - Premium Bootstrap 5 starter crafted by App-Generator.](https://user-images.githubusercontent.com/51070104/173217499-a443fd60-2564-42f3-8bb6-4a498823f670.png)
 
 <br />
 
