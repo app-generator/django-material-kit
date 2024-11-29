@@ -46,7 +46,7 @@ The product is designed to deliver the best possible user experience with highly
 - **Material Kit PRO** - Full Integration of the `Premium Version` 
 - Bootstrap 5 Styling 
 - Session-based Authentication
-- DB Persistence: SQLite/MySql/PostgreSQL
+- DB Persistence: SQLite (default), can be used with MySql, PgSql
 - Docker 
 - CI/CD integration for Render 
 
