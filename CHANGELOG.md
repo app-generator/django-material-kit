@@ -1,5 +1,19 @@
 # Change Log
 
+## [1.0.10] 2024-11-29
+### Changes
+
+> Update RM Links
+
+- 👉 [Django Material Kit](https://app-generator.dev/product/material-kit/django/) - `Product Page`
+- 👉 [Django Material Kit Documentation](https://app-generator.dev/docs/products/django/material-kit/index.html) - `Complete Information` and Support Links
+  - [Getting Started with Django](https://app-generator.dev/docs/technologies/django/index.html) - a `comprehensive tutorial`
+  - `Configuration`: Install Tailwind/Flowbite, Prepare Environment, Setting up the Database 
+  - `Start with Docker`
+  - `Manual Build`
+  - `Start the project`
+  - `Deploy on Render`
+
 ## [1.0.9] 2024-05-18
 ### Changes
 
