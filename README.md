@@ -34,7 +34,7 @@ The product is designed to deliver the best possible user experience with highly
 - Docker 
 - CI/CD integration for Render 
 
-![Django Material Kit - Open-Source Django Starter](https://user-images.githubusercontent.com/51070104/167396765-c88b7a95-155f-4236-8691-7b80fa2d9cd9.png)
+![Django Material Kit - Modern UI Library for Django crafted on top of a modern Bootstrap, Open-Source Design.](https://github.com/user-attachments/assets/d83d18dd-b147-4fcb-ba3a-cc4926c6d536)
 
 <br />
 

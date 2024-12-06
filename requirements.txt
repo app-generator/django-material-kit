@@ -4,7 +4,7 @@ python-dotenv==1.0.1
 str2bool==1.1
 
 # UI
-django-theme-material-kit==1.0.19
+django-theme-material-kit==1.0.25
 
 # Deployment
 whitenoise==6.6.0

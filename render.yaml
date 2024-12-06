@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: django-mkit
+    name: django-material-kit-latest
     plan: free
     env: python
     region: frankfurt  # region should be same as your database region.
