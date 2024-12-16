@@ -1,5 +1,20 @@
 # Change Log
 
+## [1.0.12] 2024-12-16
+### Changes
+
+- Preselect the design in the Generator:
+  - [Django App Generator - Material UI KIT](https://app-generator.dev/tools/django-generator/material-kit/)
+- (Optional) Design Database: edit models and fields
+- (Optional) Edit the fields for the extended user model
+- (Optional) Enable OAuth for GitHub
+- (Optional) Add Celery (async tasks)
+- (Optional) Enable Dynamic API Module
+- Docker Scripts
+- Render CI/Cd Scripts
+
+**The generated Django project is available as a ZIP Archive and also uploaded to GitHub.**
+
 ## [1.0.11] 2024-12-06
 ### Changes
 
